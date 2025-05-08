@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    flex: 1;
+    background-color: #1F2937;
+    padding: 10px 80px 30px 80px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8; 
+}
+
+.header-link{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.links a {
+    font-size: 18px;
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Awesome {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0px;
+}
+
+.left-title {
+    font-size: 48px;
+    color:#F9FAF8;
+    weight: 900;
+}
+.left-button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    color:#F9FAF8; 
+    margin: 10px 0;
+}
+/* ---------Random Info Part Starts Here--------------- */
+
+.Info{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 80px 30px 80px;
+}
+.Info-header{
+    margin: auto;
+    font-size: 36px;
+    color: #1F2937;
+    weight: 900:
+}
+.Info-illustration{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 40px;
+}
+
+.box{
+    border: solid #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+.Info-content{
+    width:150px;
+}
+/* ---------Quote Part Starts Here--------------- */
+
+.quote {
+   flex: 1;
+   background-color: #E5E7EB; 
+   padding: 60px 80px 60px 80px;
+}
+.quote-main{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-name{
+    font-size: 20px;
+    text-align: right;
+}
+
+/* ---------Signup Part Starts Here--------------- */
+.signup{
+    display: flex;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    justify-content: space-between;
+    padding: 30px 80px;
+    margin: 40px 80px;
+    border-radius: 8px;
+}
+.m-head{
+    font-size: medium;
+}
+.m-content{
+    font-size: small;
+}
+.bottom-button{
+    border-radius: 6px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    padding: 5px 20px;
+}
+
+/* ---------Footer Part Starts Here--------------- */
+.footer{
+    flex: 1 ;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    font-size: smaller;
+    padding:20px;
+}
